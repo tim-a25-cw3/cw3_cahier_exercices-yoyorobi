@@ -1,0 +1,22 @@
+.button {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    width: 242px;
+    padding: 8px 16px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color-black);
+    text-transform: uppercase;
+    border-radius: 100px;
+    svg {
+        display: inline-block;
+    }
+}
+
+.section__carrousel {
+    .button {
+        background-color: var(--color-white);
+    }
+}

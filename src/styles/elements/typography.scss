@@ -1,7 +1,6 @@
 /* ==========================================================================
    TYPOGRAPHY / ELEMENT
    ========================================================================== */
-
 h1,
 h2,
 h3,
@@ -15,13 +14,15 @@ h6 {
 
 h1 {
     font-size: var(--font-size-h1);
+    font-family: var(--font-secondary);
     margin: 0;
     color: var(--color-primary);
 }
 
 h2 {
     font-size: var(--font-size-h2);
-    font-family: var(--font-secondary);
+
+    margin: 0;
 }
 
 h3 {

@@ -1,0 +1,23 @@
+.footer {
+    padding: 40px 0;
+    font-weight: 250;
+    color: rgba($color: #ffffff, $alpha: 0.55);
+    text-align: center;
+
+    h4 {
+        font-weight: 250;
+        margin: 0;
+        font-size: 56px;
+        span {
+            font-weight: 600;
+            color: var(--color-white);
+        }
+    }
+    p {
+        font-weight: 250;
+        span {
+            font-weight: 600;
+            color: var(--color-white);
+        }
+    }
+}
